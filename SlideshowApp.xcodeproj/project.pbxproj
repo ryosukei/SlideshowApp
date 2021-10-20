@@ -13,10 +13,10 @@
 		BB374201271E953000286BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB374200271E953000286BEA /* Assets.xcassets */; };
 		BB374204271E953000286BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB374202271E953000286BEA /* LaunchScreen.storyboard */; };
 		BB37420C271E97C300286BEA /* ExpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37420B271E97C300286BEA /* ExpendingViewController.swift */; };
-		BB374213271E996500286BEA /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB374210271E996500286BEA /* cat3.jpeg */; };
-		BB374214271E996500286BEA /* cat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB374211271E996500286BEA /* cat1.jpeg */; };
-		BB374215271E996500286BEA /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB374212271E996500286BEA /* cat2.jpeg */; };
 		BB374218271EB44C00286BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB374216271EB44C00286BEA /* Main.storyboard */; };
+		BB374282271FF54E00286BEA /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB37427F271FF54E00286BEA /* cat1.jpg */; };
+		BB374283271FF54E00286BEA /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB374280271FF54E00286BEA /* cat3.jpg */; };
+		BB374284271FF54E00286BEA /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB374281271FF54E00286BEA /* cat2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		BB374203271E953000286BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB374205271E953000286BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB37420B271E97C300286BEA /* ExpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpendingViewController.swift; sourceTree = "<group>"; };
-		BB374210271E996500286BEA /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../../Downloads/cat3.jpeg; sourceTree = "<group>"; };
-		BB374211271E996500286BEA /* cat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpeg; path = ../../../../Downloads/cat1.jpeg; sourceTree = "<group>"; };
-		BB374212271E996500286BEA /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpeg; path = ../../../../Downloads/cat2.jpeg; sourceTree = "<group>"; };
 		BB374217271EB44C00286BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB37427F271FF54E00286BEA /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
+		BB374280271FF54E00286BEA /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
+		BB374281271FF54E00286BEA /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 		BB37420D271E98F600286BEA /* testImage */ = {
 			isa = PBXGroup;
 			children = (
-				BB374211271E996500286BEA /* cat1.jpeg */,
-				BB374212271E996500286BEA /* cat2.jpeg */,
-				BB374210271E996500286BEA /* cat3.jpeg */,
+				BB37427F271FF54E00286BEA /* cat1.jpg */,
+				BB374281271FF54E00286BEA /* cat2.jpg */,
+				BB374280271FF54E00286BEA /* cat3.jpg */,
 			);
 			path = testImage;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB374214271E996500286BEA /* cat1.jpeg in Resources */,
-				BB374215271E996500286BEA /* cat2.jpeg in Resources */,
-				BB374213271E996500286BEA /* cat3.jpeg in Resources */,
+				BB374282271FF54E00286BEA /* cat1.jpg in Resources */,
+				BB374284271FF54E00286BEA /* cat2.jpg in Resources */,
+				BB374283271FF54E00286BEA /* cat3.jpg in Resources */,
 				BB374218271EB44C00286BEA /* Main.storyboard in Resources */,
 				BB374204271E953000286BEA /* LaunchScreen.storyboard in Resources */,
 				BB374201271E953000286BEA /* Assets.xcassets in Resources */,
