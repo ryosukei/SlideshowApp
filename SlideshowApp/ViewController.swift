@@ -75,6 +75,14 @@ class ViewController: UIViewController {
     
     // 画面遷移を行う
     @IBAction func onTapImage(_ sender: Any) {
+        // タイマーが走っていた時は止める
+        if(timer != nil){
+            timer.invalidate()
+            timer = nil
+            backLabel.isEnabled = true
+            goLabel.isEnabled = true
+            timerText.setTitle("再生", for: .normal)
+        }
         performSegue(withIdentifier:"toExpending", sender: nil)
     }
 }
